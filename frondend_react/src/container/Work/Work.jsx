@@ -38,7 +38,7 @@ const Work = () => {
         Section
       </h2>
       <div className="app__work-filter">
-        {["SQL", "Excel", "Python","Full Projects", "All"].map((item, i) => (
+        {["Power BI","SQL", "Excel", "Python","Full Projects", "All"].map((item, i) => (
           <div
           key={i}
           className={`app__work-filter-item app__flex p-text ${
